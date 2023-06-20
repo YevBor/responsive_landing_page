@@ -1,5 +1,6 @@
 import logo from  './assets/logo/atera-logo.svg'
 import {ImageSlider} from './components/ImageSlider.tsx'
+import TypeWriter from './components/TypeWriter.tsx'
 
 function App() {
 
@@ -7,7 +8,7 @@ function App() {
     <>
       <div className="flex flex-col  items-center mt-8 font-roboto" >
         <img src={logo} alt="Atera Logo"  className='w-36 '/>
-        <h1 className='font-bold text-5xl mt-6 p-3 leading-10' >Join the new era of I.T. with Atera</h1>
+        <TypeWriter text="Join the new era of I.T. with Atera"  />
         <h5 className='self-start px-3 mb-1'>With our all-in-one I.T. platform, you get:</h5>
         <ul className='self-start px-4 '>
           <li><span className="text-gold text-2xl pr-2">●</span>Monitor unlimited devices</li>
