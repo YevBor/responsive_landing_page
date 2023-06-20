@@ -28,12 +28,14 @@
     width: 10px;
     height: 10px;
     margin: 0 5px;
-    background-color: grey;
+    background-color: #1A1A1A;
+    opacity: 0.2;
     border-radius: 50%;
     cursor: pointer;
   }
   
   .dot__active {
+    opacity: 1;
     background-color: #D1AD78;
   }
   
