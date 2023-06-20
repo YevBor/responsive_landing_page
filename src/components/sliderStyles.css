@@ -1,0 +1,39 @@
+.slider-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide-image {
+    width: 100%;
+    padding: 18px;
+    margin-top: 59px;
+    padding-bottom: 9px;
+  }
+  
+  .dots {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    background-color: grey;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .dot__active {
+    background-color: #D1AD78;
+  }
+  
