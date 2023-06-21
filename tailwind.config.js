@@ -19,9 +19,9 @@ export default {
         gold: '#D1AD78',
         texts_color: '#1A1A1A',
     },
-    spacing: {
-      '7rem': '7rem',
-    },
+          spacing: {
+        '7rem': '7rem',
+      },
     },
   },
   plugins: [],

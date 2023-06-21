@@ -38,4 +38,16 @@
     opacity: 1;
     background-color: #D1AD78;
   }
-  
+
+  @media screen and (min-width: 700px) {
+    .slide-image {
+
+      padding: 64px;
+      margin-top: 59px;
+      padding-bottom: 9px;
+    }
+    .dot{
+      width: 13px;
+      height: 13px;
+    }
+  }

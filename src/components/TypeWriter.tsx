@@ -15,7 +15,7 @@ const Typewriter = ({ text}:WriterProps) => {
     return () => clearTimeout(timer);
   }, [text, index]);
 
-  return <h1  className='font-bold text-5xl mt-6 p-3 leading-10 h-32 mb-5'>{text.substring(0, index)}</h1>;
+  return <h1  className='font-bold md:text-6xl md:mt-16 text-5xl mt-6 p-3 leading-10 h-32 mb-5 self-start'>{text.substring(0, index)}</h1>;
 };
 
 export default Typewriter;

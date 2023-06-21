@@ -6,16 +6,16 @@ import certificate from '../assets/badges/2023.svg'
 
 const Footer = () => (
     <>
-    <div className='flex justify-center mt-8'>
+    <div className='flex justify-center mt-8 flex-wrap max-w-sm'>
         <img src={os1} alt="windows" className="px-2" />
         <img src={os2} alt="ios" className="px-2" />
         <img src={os3} alt="linux" className="px-2" />
     </div>
     <div className='mt-4 '>
-        <hr  className='border-black border-2 max-w-xs mx-auto opacity-20'/>
+        <div  className='border-black border-2 max-w-xs mx-auto opacity-20 md:hidden'/>
     </div>
+        <img src={certificate} alt="Certificate" className="mx-auto mt-3 " />
     <div>
-        <img src={certificate} alt="Certificate" className="mx-auto mt-3" />
     </div>
   </>
 )
