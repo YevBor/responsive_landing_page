@@ -10,5 +10,10 @@
 body{
     background-color: #EDEDED;
     color: #1A1A1A;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;   
+}
+
+*{
+    border: 1px solid red;
+
 }

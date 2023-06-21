@@ -4,11 +4,11 @@ import Footer from './components/Footer.tsx';
 
 function App() {
   return (
-    <>
-      <Header />
+    <div>
+      <Header /> 
       <ImageSlider />
       <Footer />
-    </>
+    </div>
   );
 }
 

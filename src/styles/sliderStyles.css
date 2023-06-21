@@ -3,6 +3,8 @@
     width: 100%;
     overflow: hidden;
     white-space: nowrap;
+    max-width: 700px;
+    margin: 0 auto;
   }
   
   .slides {
