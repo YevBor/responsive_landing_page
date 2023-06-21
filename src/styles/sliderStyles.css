@@ -1,68 +1,66 @@
 .slider-container {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    white-space: nowrap;
-    max-width: 700px;
-    margin: 0 auto;
-  }
-  
-  .slides {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-  }
-  
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide-image {
+  width: 100%;
+  padding: 18px;
+  margin-top: 59px;
+  padding-bottom: 9px;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  background-color: #1a1a1a;
+  opacity: 0.2;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dot__active {
+  opacity: 1;
+  background-color: #d1ad78;
+}
+
+@media screen and (min-width: 700px) {
   .slide-image {
-    width: 100%;
-    padding: 18px;
+    padding: 10px;
     margin-top: 59px;
     padding-bottom: 9px;
   }
-  
-  .dots {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-  }
-  
   .dot {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    margin: 0 5px;
-    background-color: #1A1A1A;
-    opacity: 0.2;
-    border-radius: 50%;
-    cursor: pointer;
+    width: 13px;
+    height: 13px;
   }
-  
-  .dot__active {
-    opacity: 1;
-    background-color: #D1AD78;
+}
+
+@media screen and (min-width: 1024px) {
+  .slide-image {
+    padding: 18px;
+    margin-top: 55px;
+    padding-bottom: 9px;
   }
-
-  @media screen and (min-width: 700px) {
-    .slide-image {
-
-      padding: 10px;
-      margin-top: 59px;
-      padding-bottom: 9px;
-    }
-    .dot{
-      width: 13px;
-      height: 13px;
-    }
+  .dot {
+    width: 13px;
+    height: 13px;
   }
-
-  @media screen and (min-width: 1024px) {
-    .slide-image {
-
-      padding: 18px;
-      margin-top: 55px;
-      padding-bottom: 9px;
-    }
-    .dot{
-      width: 13px;
-      height: 13px;
-    }
-  }
+}
