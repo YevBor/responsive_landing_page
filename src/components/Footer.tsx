@@ -5,19 +5,13 @@ import certificate from '../assets/badges/2023.svg'
 
 
 const Footer = () => (
-    <>
-    <div className='flex justify-center mt-8 flex-wrap max-w-sm'>
-        <img src={os1} alt="windows" className="px-2" />
-        <img src={os2} alt="ios" className="px-2" />
-        <img src={os3} alt="linux" className="px-2" />
-    </div>
-    <div className='mt-4 '>
-        <div  className='border-black border-2 max-w-xs mx-auto opacity-20 md:hidden'/>
-    </div>
-        <img src={certificate} alt="Certificate" className="mx-auto mt-3 " />
-    <div>
-    </div>
-  </>
+        <div className='flex justify-center mt-8 lg:mt-1 flex-wrap px-14'>
+            <img src={os1} alt="windows" className="px-2 w-14 " />
+            <img src={os2} alt="ios" className="px-2 lg:w-14 "  />
+            <img src={os3} alt="linux" className="px-2 lg:w-12 " />
+            <div className="md:border-r-2 md:border-black md:opacity-20 none"></div>
+            <img src={certificate} alt="Certificate" className=" px-2 lg:w-14" />
+        </div>
 )
 
 export default Footer

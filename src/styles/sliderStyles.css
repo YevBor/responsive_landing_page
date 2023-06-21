@@ -44,8 +44,21 @@
   @media screen and (min-width: 700px) {
     .slide-image {
 
-      padding: 64px;
+      padding: 10px;
       margin-top: 59px;
+      padding-bottom: 9px;
+    }
+    .dot{
+      width: 13px;
+      height: 13px;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    .slide-image {
+
+      padding: 18px;
+      margin-top: 55px;
       padding-bottom: 9px;
     }
     .dot{
