@@ -9,10 +9,7 @@ const ImageSlider = () => {
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const handleClick =
-    (index: number) => (event: React.MouseEvent<HTMLDivElement>) => {
-      setCurrentIndex(index);
-    };
+
 
   return (
     <div className="slider-container">
@@ -30,8 +27,8 @@ const ImageSlider = () => {
         ))}
       </div>
       <div className="dots">
-        {slides.map((slide, index) => (
-          <div key={index} onClick={handleClick(index)}>
+        {slides.map((_slide, index) => (
+          <div key={index} onClick={()=>{setCurrentIndex(index)}}>
             <span
               className={`${
                 currentIndex === index ? 'dot dot__active' : 'dot'
